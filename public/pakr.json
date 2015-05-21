@@ -1,13 +1,13 @@
 {
   "packages": {
-    "strapdownjs" : {
+    "strapdown" : {
       "cdn": "pakr",
       "latest": "0.2",
       "files": [
-        "strapdownjs.js"
+        "strapdown.js"
       ],
       "mains": [
-        "strapdownjs.js"
+        "strapdown.js"
       ],
       "0.1": {
         "pakr": 0
