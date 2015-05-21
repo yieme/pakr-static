@@ -1,8 +1,6 @@
 # pakr-static
 
-Pakr static asset server
-
-<!-- [![build status](https://secure.travis-ci.org/yieme/pakr-static.png)](http://travis-ci.org/yieme/pakr-static) -->
+[Pakr](https://github.com/yieme/pakr) static asset server
 
 ## Installation
 
@@ -12,15 +10,25 @@ This module is installed via npm:
 npm i pakr-static --save
 ```
 
-## Example Usage
+## Setup
 
-```js
-var pakrStatic = require('pakr-static')
-var express = require('express')
-var app = express()
-app.use(pakrStatic())
+Place packages to serve in ```/public/PACKAGE_NAME/PACKAGE_VERSION/PACKAGE_NAME.EXTENSION```
+
+Add package description to: ```/public/pakr.json```
+
+## Run
+
+```sh
+node index.js
+```
+
+## Heroku Deploy
+
+```sh
+heroku app:create pakr-static-server
+git push heroku master
 ```
 
 ## Rights
 
-Copyright (C) 2015 by yieme, License: MIT
+Copyright (C) 2015 by Yieme, License: MIT
