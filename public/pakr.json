@@ -4,10 +4,10 @@
       "cdn": "pakr",
       "latest": "0.2",
       "files": [
-        "showdownjs.js"
+        "strapdownjs.js"
       ],
       "mains": [
-        "showdownjs.js"
+        "strapdownjs.js"
       ],
       "0.1": {
         "pakr": 0
