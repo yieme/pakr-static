@@ -9,7 +9,7 @@
     "test": "mocha -R list test/*.js"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": "0.10.x"
   },
   "repository": {
     "type": "git",
