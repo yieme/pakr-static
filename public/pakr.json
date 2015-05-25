@@ -4,7 +4,7 @@
       "cdn": "pakr",
       "latest": "0.2",
       "files": [
-        "strapdown.js"
+        "strapdown.js,strapdown.css,themes/bootstrap-responsive.min.css,themes/bootstrap.min.css,themes/cerulean.min.css,themes/cyborg.min.css,themes/journal.min.css,themes/readable.min.css,themes/simplex.min.css,themes/slate.min.css,themes/spacelab.min.css,themes/spruce.min.css,themes/superhero.min.css,themes/united.min.css"
       ],
       "mains": [
         "strapdown.js"
